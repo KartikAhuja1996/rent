@@ -19,7 +19,14 @@ img{
     
     /* object-fit: contain; */
 }
+.navbar{
+    padding: 0px !important;
+}
 
+.navbar a{
+    padding: 0px;
+
+}
 
 .content-container{
     margin-top:80px;
@@ -27,7 +34,7 @@ img{
 
 .tagline{
     margin:0px;
-    color:white;
+    color:#ffc273;
     padding: 20px;
     padding-top:120px;
     font-size:50px;
@@ -41,7 +48,7 @@ img{
     padding-right: 10px !important;
     padding: 5px 30px;
     color:white;
-    background:#b3750bca;
+    background:#12D1F1ca;
     border-radius: 5px;
     display: inline-block;
     font-size: 35px;
@@ -57,7 +64,7 @@ img{
 
 
 .service-container{
-    background:#3b3b3b;
+    background:#2d59a1;
 }
 
 .service-container h2{
@@ -69,9 +76,17 @@ img{
 }
 
 .service-container .card .card-body{
-    background: black !important;
+    background: #0e2345 !important;
 }
 
+.product-container .card{
+    transition-duration: 0.2s;
+}
+
+
+.product-container .card:hover{
+    transform: scale(1.05);
+}
 
 .service-container .card .card-body .card-title{
     color:white;
@@ -88,6 +103,10 @@ img{
 @media screen and (max-width:420px){
 
 
+    .content-container{
+        margin-top: 0px !important;
+    }
+
     .tagline{
         font-size: 35px;
     }
@@ -95,4 +114,13 @@ img{
     .details{
         font-size: 25px;
     }
+
+    .navbar{
+        padding-right: 10px !important;
+    }
+
+    .navbar a img{
+        width:200px !important;
+    }
+
 }
