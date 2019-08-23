@@ -54,6 +54,20 @@ img{
     font-size: 35px;
 }
 
+ul,li{
+    list-style-type: none;
+}
+
+ul{
+    padding-left:25px; 
+}
+
+.icon{
+    margin-right: 4px;
+    position: relative;
+    top:5px;
+}
+
 .card-text{
     color:#525252;
 }
@@ -98,7 +112,28 @@ img{
 }
 
 
+.background{
+    height:300px;
+    width: 100%;
+    background-color: #0E2345;
+    position: absolute;
+    top:350px;
+    z-index:-1;
+}
 
+.contact-container{
+    position: relative;
+    overflow: hidden;
+    
+}
+
+li p{
+    margin:0px !important;
+}
+
+li{
+    margin:10px 0px;
+}
 
 @media screen and (max-width:420px){
 
@@ -123,5 +158,26 @@ img{
     .navbar a img{
         width:200px !important;
     }
+
+}
+
+
+@media screen and (max-width:768px){
+
+    .background{
+        height:450px;
+    }
+
+
+    .contact-row{
+
+        height:530px !important;
+
+    }
+
+    #gmap_canvas{
+        height:250px !important;
+    }
+    
 
 }
