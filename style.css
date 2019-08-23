@@ -164,13 +164,20 @@ li{
 
 @media screen and (max-width:768px){
 
+    .address-heading{
+        padding-left:10px !important;
+    }
+
     .background{
         height:450px;
     }
 
+    ul{
+        padding-left:10px; 
+    }
 
-    .contact-row{
-
+    .contact-row{   
+        margin:0px !important;
         height:530px !important;
 
     }
